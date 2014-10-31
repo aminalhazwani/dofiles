@@ -1,4 +1,3 @@
-dofiles
-=======
+# Dotfiles (Amin Al Hazwani)
 
-OS X dotfiles: bash, git, vim, etc.
+My collection of OS X dotfiles: bash, git, vim, etc.
