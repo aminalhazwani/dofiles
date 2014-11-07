@@ -19,7 +19,7 @@ $ curl -O https://raw.githubusercontent.com/aminalhazwani/dotfiles/master/.input
 __Note__: in Terminal.app while navigating you can press TAB to autocomplete your path.
 
 ## Git
-I usually install git with [Homebrew](#). If you need to install Homebrew follow this simple two steps I showed in [this guide](#) on how to set your Mac for web development
+I usually install git with [Homebrew](http://brew.sh/). If you need to install Homebrew follow this simple two steps I showed in [this guide](https://github.com/aminalhazwani/mac-web-dev-setup) on how to set your Mac for web development
 ```
 brew install git
 ```
@@ -33,10 +33,10 @@ define your git user
 $ git config --global user.name "Your Name Here"
 $ git config --global user.email "your_email@youremail.com"
 ```
-and finally generate a ssh key following this guide: [https://help.github.com/articles/generating-ssh-keys/](https://help.github.com/articles/generating-ssh-keys/)
+and finally generate a ssh key following [this guide](https://help.github.com/articles/generating-ssh-keys/).
 
 ## Vim
-It could happen that from time to time I need to edit a file on-the-go inside Terminal.app. I prefer [Vim](#) over [nano](#) so, let's install it
+It could happen that from time to time I need to edit a file on-the-go inside Terminal.app. I prefer [Vim](http://www.vim.org/) over [nano](http://www.nano-editor.org/dist/v2.2/nano.html) so, let's install it
 ```
 $ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
     curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
@@ -55,7 +55,7 @@ $ curl -O https://raw.githubusercontent.com/aminalhazwani/dotfiles/master/.vim/c
 ```
 
 ## Sublime Text
-Sublime Text 2 if my text editor of choice. Download it from their [offical website](http://www.sublimetext.com/2)
+Sublime Text 2 if my text editor of choice. Download it from their [offical website](http://www.sublimetext.com/2).
 
 ### Install Package Control
 Sublime Text without Package Control is no Sublime Text. Open Sublime Text console with the shortcut `ctrl + backtick` and paste inside it the appropriate Python code for your version of Sublime Text
@@ -70,7 +70,7 @@ These are packages I have currently installed:
 - AdvancedNewFile
 
 ### Sublime Text User preferences
-I have a strong passion for typography. This is reflected of course on my type setting in Sublime Text. My favorite coding font is [Input Mono](#) from [Font Bureau](#).
+I have a strong passion for typography. This is reflected of course on my type setting in Sublime Text. My favorite coding font is [Input Mono](http://input.fontbureau.com/) by [Font Bureau](http://www.fontbureau.com/).
 ```
 $ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/
 $ curl -O https://raw.githubusercontent.com/aminalhazwani/dotfiles/master/init/Preferences.sublime-settings
